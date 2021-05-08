@@ -46,8 +46,8 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Misspoken', 'Pejimic', 'NANO', 'Whayn', 'Flame', 'On Top', 'misspoken', 'Don\'t Skid']);
-  app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
+  app.titleChanger(['Misspoken', 'Pejimic', 'NANO', 'Whayn', 'Flame', 'On Top', 'Discord Hacks', 'No Skids!']);
+  app.iconChanger(['assets/icons/fire/fire_1.png', 'assets/icons/fire/fire_2.png', 'assets/icons/fire/fire_3.png', 'assets/icons/fire/fire_4.png', 'assets/icons/fire/fire_5.png', 'assets/icons/fire/fire_6.png', 'assets/icons/fire/fire_7.png', 'assets/icons/fire/fire_8.png', 'assets/icons/fire/fire_1.png']);
 });
 
 if ($.cookie('videoTime')) {
@@ -81,7 +81,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'misspoken';
+  img.alt = 'Misspoken';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
