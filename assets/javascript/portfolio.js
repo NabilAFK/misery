@@ -46,7 +46,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Misspoken', 'Pejimic', 'NANO', 'Whayn', 'Flame', 'On Top', 'Discord Hacks', 'No Skids!']);
+  app.titleChanger(['nabilafk', 'runs', 'you', 'nabilafk', 'is', 'on top', '@bruhnabil', '@nabilwrld']);
   app.iconChanger(['assets/icons/fire/fire_1.png', 'assets/icons/fire/fire_2.png', 'assets/icons/fire/fire_3.png', 'assets/icons/fire/fire_4.png', 'assets/icons/fire/fire_5.png', 'assets/icons/fire/fire_6.png', 'assets/icons/fire/fire_7.png', 'assets/icons/fire/fire_8.png', 'assets/icons/fire/fire_1.png']);
 });
 
@@ -138,7 +138,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>Misery On Top </i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>NabilAFK On Top </i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
