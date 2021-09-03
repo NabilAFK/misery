@@ -8,7 +8,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['accounts', 'discord hacks', 'developers', 'youtubers', 'tools', 'on top'];
+  brandDescription = ['unblocked games', 'discord hacks', 'developers', 'youtubers', 'tools', 'on top'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
