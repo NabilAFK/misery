@@ -9,24 +9,24 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Pejimic',
-      link: '761931636484210699',
+      name: 'github.com/nabilafk',
+      link: '',
     },
     {
-      name: 'Flame',
-      link: '828856146672091136',
+      name: 'youtube.com/ItzNabil',
+      link: '',
     },
     {
-      name: 'Misspoken',
-      link: '817821009239212043',
+      name: 'instagram.com/itz._.nabil',
+      link: '',
     },
     {
-      name: 'NANO',
-      link: '766694976746684417',
+      name: 'tiktok.com/@nabilwrld',
+      link: '',
     },
     {
-      name: 'Whayn',
-      link: '813053611189600307',
+      name: 'nabilafk.github.io',
+      link: '',
     },
   ];
 
